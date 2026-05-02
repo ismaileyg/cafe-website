@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>İletişim</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+<link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+
+<header class="header">
+    <h1>
+  <img src="images/logo.png" alt="logo" class="logo-icon">
+</h1>
+    <nav class="nav">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="about.html">Hakkımızda</a>
+        <a href="menu.html">Menü</a>
+        <a href="contact.html">İletişim</a>
+        <button id="darkModeToggle">🌙</button>
+    </nav>
+</header>
+
+<section class="contact-hero">
+    <h2 data-aos="fade-down">Bize Ulaş</h2>
+</section>
+
+<section class="contact-wrapper">
+
+    <div class="contact-form" data-aos="fade-right">
+        <h3>Mesaj Gönder</h3>
+        <form>
+            <input type="text" placeholder="Adınız">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Mesaj"></textarea>
+            <button>Gönder</button>
+        </form>
+    </div>
+
+    <div class="contact-map" data-aos="fade-left">
+        <iframe src="https://www.google.com/maps?q=istanbul&output=embed"></iframe>
+    </div>
+
+</section>
+
+<script src="js/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
+
+<footer class="footer">
+    <div class="footer-container">
+
+       
+        <div class="footer-col">
+            <h2 class="footer-logo">☕ Lullibs Cafe</h2>
+            <p>Şehrin en kaliteli kahve deneyimini sunuyoruz. 
+            Günün her anında sıcak bir mola için buradayız.</p>
+        </div>
+
+        
+        <div class="footer-col">
+            <h3>Hızlı Menü</h3>
+            <a href="index.html">Ana Sayfa</a>
+            <a href="about.html">Hakkımızda</a>
+            <a href="menu.html">Menü</a>
+            <a href="contact.html">İletişim</a>
+        </div>
+
+       
+        <div class="footer-col">
+            <h3>İletişim</h3>
+            <p>📍 İstanbul, Türkiye</p>
+            <p>📞 0555 555 55 55</p>
+            <p>✉ info@lullibscfe.com</p>
+
+            <div class="socials">
+                <a href="#">📷</a>
+                <a href="#">🐦</a>
+                <a href="#">📘</a>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <div class="footer-bottom">
+        <p>© 2026 Lullibs Cafe • Tüm Hakları Saklıdır</p>
+    </div>
+</footer>
+
+</body>
+</html>
