@@ -53,11 +53,6 @@ Bu proje, bir kafenin:
 
 amacıyla geliştirilmiştir.
 
----
-
-## 📸 Ekran Görüntüleri
-
-> (Buraya site ekran görüntülerini ekleyebilirsin)
 
 ---
 
@@ -66,7 +61,7 @@ amacıyla geliştirilmiştir.
 Projeyi çalıştırmak için:
 
 ```bash
-git clone https://github.com/kullaniciadi/lullibs-cafe-website.git
+git clone https://github.com/ismaileyg/lullibs-cafe-website.git
 ```
 
 Ardından `index.html` dosyasını tarayıcıda açmanız yeterlidir.
